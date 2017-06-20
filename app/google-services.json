@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "380088472938",
+    "firebase_url": "https://itechquiz-f3fff.firebaseio.com",
+    "project_id": "itechquiz-f3fff",
+    "storage_bucket": "itechquiz-f3fff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380088472938:android:10e61fde22479841",
+        "android_client_info": {
+          "package_name": "com.justbytes.itechquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380088472938-2bab0dapf8g6ofvf10cfrkan7hts38e7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.justbytes.itechquiz",
+            "certificate_hash": "d8e64985685b8f0d4344384c266169dde99ebac7"
+          }
+        },
+        {
+          "client_id": "380088472938-qpj6k9rm1qa5ethi051hh1ueo8c5bo9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBirnL5_-MgdPLsqCPE-1HCnk-bXb_0CA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380088472938-qpj6k9rm1qa5ethi051hh1ueo8c5bo9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

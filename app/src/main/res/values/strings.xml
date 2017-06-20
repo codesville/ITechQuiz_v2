@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ITechQuiz</string>
+
+    <color name="bgColorCyan">#AEC5CF</color>
+    <color name="bgColorGrey">#DCDEE0</color>
+    <color name="bgColorLightGrey">#EBEBEB</color>
+    <color name="bgColorSkyBlue">#1874CD</color>
+	<color name="bgColorCream">#FFFFFF</color>
+    
+    <string name="refreshItem">Fetch more questions</string>
+    <string name="postItem">Post your question/answer</string>
+    <string name="contactItem">Contact Us</string>
+    <string name="shareItem">Share</string>
+    <string name="emailTo">codesville@gmail.com</string>
+    <string name="gcmSenderId">873718768261</string>
+    <string name="emailSubject">Feedback/Questions regarding ITechQuiz</string>
+    <string name="shareSubject">Check out this cool IT interview app.</string>
+    <string name="shareMsg">Hi there, \n\nCheck out this cool free app.\nIts got a ton of tech interview questions ranging from Java/J2EE,Struts,JMS,.NET,C#,SQL,Unix,Hibernate,Spring,JavaScript,AJAX,jQuery,XML,SOA.\nYou can also post/fetch new questions.\n\nClick on the link below to install the app: \n https://play.google.com/store/apps/details?id=com.justbytes.itechquiz \n\n Thanks.</string>
+	<string name="fetchURL">http://codesville.appspot.com/ITechQuiz/getLatestQandA?ver=</string>
+	<string name="notfRegisterURL">http://codesville.appspot.com/ITechQuiz/register</string>
+	<string name="postQandAURL">http://codesville.appspot.com/ITechQuiz/postQandA</string>
+	<string name="postTopicLabelTxt">Topic</string>
+	<string name="postQuestionLabelTxt">Question</string>
+	<string name="postAnswerLabelTxt">Answer</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="adMobAppId">ca-app-pub-6438303435419998~6211271061</string>
+    <string name="interstitialAdUnitId">ca-app-pub-6438303435419998/9903176660</string>
+    <string name="bannerAdUnitId">ca-app-pub-6438303435419998/6810109462</string>
+
+    <string name="interstitial_full_screen"></string>
+</resources>
