@@ -31,7 +31,8 @@ public class BaseActivity extends Activity {
 
 
 
-    AdView adView;
+
+	public AdView adView;
 
 	/** Called when the activity is first created. call setAdView before calling onCreate()
      *
@@ -39,6 +40,7 @@ public class BaseActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		MobileAds.initialize(this, getString(R.string.adMobAppId));
 		AppUtils.createAdView(getAdView());
 		dbAdapter = new DbAdapter(this);
 	}
@@ -158,7 +160,7 @@ public class BaseActivity extends Activity {
 	}
 
 	public AdView getAdView() {
-		return adView;
+		return this.adView;
 	}
 
     public void setAdView(AdView adView) {

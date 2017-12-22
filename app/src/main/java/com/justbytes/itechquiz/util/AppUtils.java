@@ -10,6 +10,7 @@ import android.util.Log;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.justbytes.itechquiz.ITechQuizActivity;
 import com.justbytes.itechquiz.R;
 
@@ -29,7 +30,6 @@ public class AppUtils {
 			"Groupon", "Careers", "Information Technology", "IT", "Vacation",
 			"women", "money", "trading", "parttime", "jQuery" };
 
-	//public static final String AD_ID = R.string.adMobAppId;
 	// "a1519648ebada10"; // mr. legacy pub id
 	// "a14f4c6b1e03bee"; //codes
 	public static final String PLAIN_TEXT = "plain/text";
@@ -47,7 +47,9 @@ public class AppUtils {
 
 	public static void createAdView(AdView adView) {
 		try{
+			//Toggle before release. Test device is only for local testing
         	AdRequest adRequest = new AdRequest.Builder().build();
+			//AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
 			adView.loadAd(adRequest);
 		} catch (Exception ex){
 			Log.e("ADVIEW", "Error creating AdView", ex);

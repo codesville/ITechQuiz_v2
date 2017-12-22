@@ -25,10 +25,10 @@
 	<string name="postQuestionLabelTxt">Question</string>
 	<string name="postAnswerLabelTxt">Answer</string>
 
-    <!-- AdMob ad unit IDs -->
-    <string name="adMobAppId">ca-app-pub-6438303435419998~6211271061</string>
-    <string name="interstitialAdUnitId">ca-app-pub-6438303435419998/9903176660</string>
-    <string name="bannerAdUnitId">ca-app-pub-6438303435419998/6810109462</string>
+    <!-- AdMob ad unit IDs. Replace with correct values before building-->
+    <string name="adMobAppId">ca-app-pub-xxxx</string>
+    <string name="interstitialAdUnitId">ca-app-pub-xxxx</string>
+    <string name="bannerAdUnitId">ca-app-pub-xxxx</string>
 
     <string name="interstitial_full_screen"></string>
 </resources>

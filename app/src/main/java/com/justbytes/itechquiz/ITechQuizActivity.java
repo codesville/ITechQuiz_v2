@@ -49,13 +49,13 @@ public class ITechQuizActivity extends BaseActivity {
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		super.setAdView((AdView)findViewById(R.id.mainBannerAdView));
-		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		setTitle("ITechQuiz: All in one IT prep app");
+		super.setAdView((AdView)findViewById(R.id.mainBannerAdView));
+		super.onCreate(savedInstanceState);
 
-		LinearLayout layout = (LinearLayout) findViewById(R.id.mainAdLayout);
-		layout.addView(getAdView());
+		//LinearLayout layout = (LinearLayout) findViewById(R.id.mainAdLayout);
+		//layout.addView(getAdView());
 
 		mainListView = (ListView) findViewById(R.id.mainListView);
 		mainListView.setOnItemClickListener(new OnItemClickListener() {
